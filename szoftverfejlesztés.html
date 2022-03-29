@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Szoftver fejlesztés</h1>
+    <ol>
+        <li>Analízis</li>
+        <li>Tervezés</li>
+        <li>Megvalósítás</li>
+        <li>Tesztelés/karbantartás</li>
+    </ol>
+    <h2>Analízis</h2>
+    <p>Analízis során felmérjük a helyzetet:<br>mire van szükség, mik a lehetőségek.</p>
+    <p>Itt kell dönteni, hogy a feladat megvalósítható-e,<br> mik a célok, meg kell becsülni az időt, költségeket. </p>
+    <h2>Feladat specifikáció</h2>
+    <ul>
+        <li>teljes</li>
+        <li>érthető</li>
+        <li>egyértelmű</li>
+        <li>pontos</li>
+        <li>tömör</li>
+        <li>szemléletes</li>
+        <li>előrelátó</li>
+        <li>jól felépített, tagolt</li>
+    </ul>
+    <h2>Beviteli (input) adatok</h2>
+    <ul>
+        <li>Mik az input adatok?</li>
+        <li>Milyen a beviteli formájuk?</li>
+        <li>mik a bevihető értékek?</li>
+        <li>Milyen módon kell befejezni a bevitelt?</li>
+        <li>Milyen kapcsolatok vannak a bevitt adatok között? (adatbázis kezelés)</li>
+    </ul>
+    <h2>Kiviteli (output) adatok</h2>
+    <ul>
+        <li>Milyen adatokat kell megőrizni?</li>
+        <li>Milyen formában kell megőrizni?</li>
+        <li>Mennyi adatról van szó?</li>
+        <li>Mennyi adatot kell megjeleníteni?</li>
+    </ul>
+    <h2>Tervezés</h2>
+    <p>A terverzés feladata az analízis során összegyűjtött információkat és adatokat alapul véve <span>logikailag</span> véglegesen kialakítsa az adat struktúrákat és az adatokat manipuláló algoritmusokat. </p>
+    <h2>Tervezés módszer kiválasztása</h2>
+    <ul>
+        <li>A számítás technika mely korszakát éljük?</li>
+        <li>Milyen számítógépre készül a program?</li>
+        <li>Mekkora a megoldandó feladat?</li>
+        <li>Milyen módszerek állnal rendelkezésre?</li>
+        <li>Milyen a tervezőcsoport informáltsága?</li>
+        <li>Van-e anyagi fedezet?</li>
+        <li>Mik a tradíciók?</li>
+        <li>Mi a főnöki utasítás?</li>
+    </ul>
+    <p>A tervezés során a folyamatábra segítségével modellezzük a folyamatokat, algoritmusokat.</p>
+    <p>A tervezési folyamat dokumentációja a programterv. Ezt folyamatosan ellenőrizni, tesztelni kell az elképzelt adatokkal. "Fejben lefuttatjuk" programot. Ezt nevezzün <em>száraz tesztnek</em>.</p>
+    <h2>Kódolás</h2>
+    <p>Implementálás (kivitelezés)</p>
+    <p>Első lépés a programterv kódolása egy adott programnyelven.</p>
+    <p>A dokumentációja ennek a szakasznak a <em>forrásprogram</em>, illetve a forrásnyelvi lista.</p>
+    <p>Egy forrásnyelvi lista akkor jó ha az</p>
+    <ul>
+        <li>pontosan a programterv szerint készül</li>
+        <li>áttekinthető, olvasható</li>
+        <li>tömör és egyértelmű megjegyzésekkel van kiegészítve</li>
+    </ul>
+    <p>Szintaktikai hibák javítása történik.</p>
+    <h2>tesztelés</h2>
+    <p>Próbafuttatások alkalmazásával természetes, hogy hibát észlelünk.</p>
+    <p>Szemantikai hiba: logikai hibát észlelünk</p>
+    <p>tesztelés feladata:</p>
+    <ul>
+        <li>logikai hibák feltárása</li>
+        <li>szélsőséges esetek feltárása és kezeélse</li>
+    </ul>
+    <p>Tesztelés folyamata:</p>
+    <ul>
+        <li>különböző próba adatokkal futtatjuk a programot</li>
+        <li>a tesztadatokat úgy kell összeállítani, hogy azok minden lehetséges értéket felvegyenek</li>
+    </ul>
+</body>
+</html>
